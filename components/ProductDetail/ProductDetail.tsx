@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./ProductDetail.module.css";
 import RelatedProductSlider from "./RelatedProductSlider";
 import ProductImageSwiper from "./ProductImageSwiper";
@@ -25,6 +25,10 @@ type Props = {
 };
 
 export default function ProductDetail({ product }: Props) {
+  useEffect(() => {
+    console.log("클라이언트 baseURL:", process.env.NEXT_PUBLIC_API_URL);
+  }, []);
+
   return (
     <div className={styles.product_detail_wrap}>
       <ProductImageSwiper detailImages={product.detailImages} />
