@@ -18,6 +18,14 @@
   grid-template-rows: minmax(80px, 1fr) auto;
 
   cursor: pointer;
+
+  overflow: hidden;
+}
+
+.name p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .selected {

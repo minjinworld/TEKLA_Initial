@@ -10,26 +10,6 @@ type Props = {
   onClick?: () => void;
 };
 
-// export default function ComfortChoice({
-//   text,
-//   bgValue,
-//   selected,
-//   onClick,
-// }: Props) {
-//   return (
-//     <div
-//       className={`${styles.wrap} ${selected ? styles.selected : ""}`}
-//       onClick={onClick}
-//     >
-//       <div className={styles.bg} style={{ background: bgValue }}></div>
-
-//       <div className={styles.name}>
-//         <p>{text}</p>
-//       </div>
-//     </div>
-//   );
-// }
-
 export default function ComfortChoice({
   text,
   bgValue,
