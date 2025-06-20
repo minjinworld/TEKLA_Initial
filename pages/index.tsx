@@ -1,21 +1,31 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Home from "@/components/home/Home";
-export default function IndexPage() {
+
+type Product = {
+  id: number;
+  title: string;
+  image: string;
+  productName: string;
+  price: string;
+  colorName: string;
+  color: string;
+  size: string;
+  textureExplain?: string;
+  detailImages: {
+    id: number;
+    image: string;
+  }[];
+};
+
+type Props = {
+  products: Product[];
+};
+
+export default function IndexPage({ products }: Props) {
   const router = useRouter();
   const [isReady, setIsReady] = useState(false);
 
-  // 조건 분기(브라우저 저장)
-  // useEffect(() => {
-  //   const hasVisited = localStorage.getItem("onboardingComplete");
-  //   if (!hasVisited) {
-  //     router.replace("/onboarding/splash");
-  //   } else {
-  //     setIsReady(true);
-  //   }
-  // }, []);
-
-  // 포폴용(탭 저장)
   useEffect(() => {
     const hasVisited = sessionStorage.getItem("visitedOnce");
 
@@ -29,5 +39,29 @@ export default function IndexPage() {
 
   if (!isReady) return null;
 
-  return <Home />;
+  return <Home products={products} />;
+}
+
+export async function getServerSideProps() {
+  const baseURL = process.env.NEXT_PUBLIC_API_URL;
+
+  try {
+    const res = await fetch(`${baseURL}/products`);
+    if (!res.ok) throw new Error("Failed to fetch products");
+
+    const products = await res.json();
+
+    return {
+      props: {
+        products,
+      },
+    };
+  } catch (err) {
+    console.error("getServerSideProps error:", err);
+    return {
+      props: {
+        products: [],
+      },
+    };
+  }
 }

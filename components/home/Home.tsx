@@ -7,16 +7,28 @@ import ProductsCardList from "./ProductsCardList";
 import FeaturedSection from "./FeaturedSection";
 import FooterSection from "./FooterSection";
 
-export default function Home() {
+type Product = {
+  id: number;
+  title: string;
+  image: string;
+  productName: string;
+  price: string;
+};
+
+type Props = {
+  products: Product[];
+};
+
+export default function Home({ products }: Props) {
   return (
     <div className="fade-in">
       <MobileLayout>
         <HeaderSection />
         <BannerSection />
         <TextBlock />
-        <ProductsCardList limit={2} />
+        <ProductsCardList products={products} limit={2} />
         <FeaturedSection />
-        <ProductsCardList offset={2} />
+        <ProductsCardList products={products} offset={2} />
         <FooterSection />
       </MobileLayout>
     </div>

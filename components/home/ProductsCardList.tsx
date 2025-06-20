@@ -6,26 +6,25 @@ type Product = {
   id: number;
   title: string;
   image: string;
+  productName: string;
+  price: string;
 };
 
 type Props = {
+  products: Product[];
   limit?: number;
   offset?: number;
 };
 
-export default function ProductsCardList({ limit, offset }: Props) {
-  const [products, setProducts] = useState<Product[]>([]);
-
-  useEffect(() => {
-    fetch("http://localhost:4001/products")
-      .then((res) => res.json())
-      .then((data) => setProducts(data));
-  }, []);
-
+export default function ProductsCardList({
+  products,
+  limit,
+  offset = 0,
+}: Props) {
   const visibleProducts =
     typeof limit === "number"
-      ? products.slice(0, limit)
-      : products.slice(offset ?? 0);
+      ? products.slice(offset, offset + limit)
+      : products.slice(offset);
 
   return (
     <div className={styles.gridWrap}>
