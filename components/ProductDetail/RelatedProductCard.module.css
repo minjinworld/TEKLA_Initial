@@ -15,7 +15,7 @@
 }
 
 .related_product_image {
-  height: 190px;
+  aspect-ratio: 3 / 3.2;
 }
 
 .related_product_name_wrap {

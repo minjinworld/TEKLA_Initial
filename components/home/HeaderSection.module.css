@@ -22,11 +22,11 @@
 
 .backgroundLayer {
   position: fixed;
-  top: 10px;
+  top: 8px;
   left: 0;
   right: 0;
   width: 96%;
-  height: 36px;
+  height: 40px;
   background-color: #4e4e4e;
   z-index: 9;
 

@@ -29,8 +29,9 @@ export default function ProductImageSwiper({ detailImages }: Props) {
         {detailImages.map((img) => (
           <SwiperSlide key={img.id} className={styles.slide}>
             <Image
-              fill
-              style={{ objectFit: "cover" }}
+              width={300}
+              height={200}
+              style={{ width: "100%", height: "100%" }}
               src={img.image}
               alt="Product image"
             />

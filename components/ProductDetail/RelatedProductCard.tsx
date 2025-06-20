@@ -15,7 +15,13 @@ export default function RelatedProductCard({ id, title, price, image }: Props) {
   return (
     <Link href={`/products/${id}`} className={styles.related_product_card}>
       <div className={styles.related_product_image}>
-        <Image fill style={{ objectFit: "cover" }} src={image} alt={title} />
+        <Image
+          width={300}
+          height={200}
+          style={{ width: "100%", height: "100%" }}
+          src={image}
+          alt={title}
+        />
       </div>
       <div className={styles.related_product_name_wrap}>
         <p className={styles.title}>{title}</p>
