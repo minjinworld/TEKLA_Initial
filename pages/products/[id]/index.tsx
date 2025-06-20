@@ -41,9 +41,12 @@ export default function ProductDetailPage({ product }: Props) {
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const { id } = context.params!;
   // const res = await fetch(`http://localhost:4001/products/${id}`);
-  const res = await fetch(
-    `https://tekla-json-server-production.up.railway.app/api/products/${id}`
-  );
+  // const res = await fetch(
+  //   `https://tekla-json-server-production.up.railway.app/api/products/${id}`
+  // );
+  const baseURL = process.env.NEXT_PUBLIC_API_URL;
+
+  const res = await fetch(`${baseURL}/products/${id}`);
 
   if (!res.ok) {
     console.error("서버 응답 에러:", await res.text());
