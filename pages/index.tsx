@@ -25,7 +25,7 @@ export default function IndexPage() {
     } else {
       setIsReady(true);
     }
-  }, []);
+  }, [router]);
 
   if (!isReady) return null;
 

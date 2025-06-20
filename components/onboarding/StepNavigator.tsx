@@ -11,7 +11,6 @@ type Props = {
 
 export default function StepsNavigator({ onComplete }: Props) {
   const [step, setStep] = useState(1);
-  const router = useRouter();
 
   const goToNext = () => setStep((prev) => prev + 1);
   const goToPrev = () => setStep((prev) => prev - 1);
