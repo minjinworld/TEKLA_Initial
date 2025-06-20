@@ -20,8 +20,7 @@ export default function ComfortChoice({
     <motion.div
       className={`${styles.wrap} ${selected ? styles.selected : ""}`}
       onClick={onClick}
-      whileTap={{ scale: 0.92 }}
-      animate={selected ? { scale: 1 } : { scale: 1 }}
+      animate={{ scale: selected ? 1 : 1 }}
       transition={{
         type: "spring",
         stiffness: 400,
