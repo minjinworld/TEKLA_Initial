@@ -43,5 +43,6 @@
   border-radius: 6px;
   background-color: #f2ebde;
   aspect-ratio: 1 / 1;
-  object-fit: cover;
+
+  overflow: hidden;
 }
