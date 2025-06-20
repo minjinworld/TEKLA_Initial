@@ -3,8 +3,6 @@ import Step1 from "@/components/onboarding/Step1";
 import Step2 from "@/components/onboarding/Step2";
 import Step3 from "@/components/onboarding/Step3";
 
-import { useRouter } from "next/router";
-
 type Props = {
   onComplete: () => void;
 };
