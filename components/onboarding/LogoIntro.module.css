@@ -1,0 +1,11 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.splashLogo {
+  width: 160px;
+  height: 33px;
+}

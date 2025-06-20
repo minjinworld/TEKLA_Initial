@@ -1,0 +1,74 @@
+.texture_explain {
+  margin: 0 -16px;
+
+  font-size: 0.875rem;
+  letter-spacing: 0.1px;
+  padding: 16px 12px;
+
+  background-color: #e8e8e8;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title_wrap {
+  font-size: 1rem;
+  letter-spacing: -0.2px;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 16px;
+}
+
+.color_size_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.color_name {
+  font-size: 0.875rem;
+}
+
+.solid_box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.solid {
+  font-size: 0.75rem;
+}
+
+.solidcolor {
+  display: flex;
+  gap: 6px;
+}
+
+.colorbox {
+  width: 24px;
+  height: 24px;
+  /* background-color: #c0cdb6; */
+  border: 0.5px solid #e3e3e3;
+}
+
+.size_info {
+  font-size: 0.875rem;
+}
+
+.related_wrap {
+  margin-top: 20px;
+}
+
+.related_title {
+  margin-bottom: 16px;
+}
+
+.related_slide {
+  display: flex;
+  gap: 12px;
+}

@@ -1,42 +1,102 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Unica77";
+  src: url("/fonts/Unica77/Unica77_Light.ttf");
+  font-weight: 200;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* @font-face {
+  font-family: "Unica77";
+  src: url("/fonts/Unica77/Unica77.ttf");
+  font-weight: 600;
+  font-style: normal;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Unica77", sans-serif;
 }
 
 html,
 body {
-  max-width: 100vw;
   overflow-x: hidden;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: #181818;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+ol,
+ul,
+li {
+  list-style: none;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+img,
+svg,
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---------------------- */
+.swiper-pdp-gallery.swiper-horizontal > .swiper-pagination-progressbar,
+.swiper-pdp-gallery .swiper-pagination-progressbar.swiper-pagination-horizontal,
+.swiper-pdp-gallery.swiper-vertical
+  > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
+.swiper-pdp-gallery
+  .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite {
+  bottom: 0;
+  top: auto;
+
+  height: 1.5px;
+
+  background-color: rgba(181, 181, 181, 0.5);
+}
+
+.swiper-pdp-gallery
+  .swiper-pagination-progressbar
+  .swiper-pagination-progressbar-fill {
+  background-color: #181818;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.fade-out {
+  animation: fadeOut 0.4s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }

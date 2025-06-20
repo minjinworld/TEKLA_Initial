@@ -8,7 +8,8 @@
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "bundler",
+    // "moduleResolution": "bundler", // Next.js 13+ + App Router + 최신 bundler 설정 (예: Turbopack) 환경에서만 사용하는 옵션
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",

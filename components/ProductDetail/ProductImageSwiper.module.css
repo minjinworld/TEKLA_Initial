@@ -1,0 +1,13 @@
+.product_slide {
+  margin: 0 -16px;
+}
+
+.slide {
+  aspect-ratio: 3 / 3.2;
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-pagination-progressbar-fill {
+  background-color: #000; /* 원하는 색상으로 변경 */
+}

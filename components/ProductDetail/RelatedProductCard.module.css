@@ -1,0 +1,35 @@
+.related_slide::-webkit-scrollbar {
+  display: none;
+}
+
+.related_product_card {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  /* width: 33.333%; */
+  width: 40%;
+  flex-basis: 40%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.related_product_image {
+  height: 190px;
+}
+
+.related_product_name_wrap {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  font-size: 0.875rem;
+}
+
+.title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  overflow: hidden;
+}

@@ -1,0 +1,244 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Beach towel - Pistachio",
+      "image": "/image/products/1_0_Terry_Beach_towel_Pistachio.jpg",
+      "textureExplain": "Organic cotton in a compact yet lightweight weave.",
+      "productName": "Beach towel",
+      "price": "₩ 160,000",
+      "colorName": "Pistachio - Pale green hue",
+      "color": "#c0cdb6",
+      "size": "Size: 100x180",
+      "detailImages": [
+        {
+          "id": 1,
+          "image": "/image/products/1_0_Terry_Beach_towel_Pistachio.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/image/products/1_1_Terry_Beach_towel_Pistachio.webp"
+        },
+        {
+          "id": 3,
+          "image": "/image/products/1_2_Terry_Beach_towel_Pistachio.webp"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Beach Bag - Ivory",
+      "image": "/image/products/2_0_Canvas_Beach_bag_Ivory.jpg",
+      "textureExplain": "Thick canvas woven with organic cotton. Made in Portugal.",
+      "productName": "Beach Bag",
+      "price": "₩ 440,000",
+      "colorName": "Ivory - Brilliant off-white hue",
+      "color": "rgb(242, 235, 222)",
+      "size": "Size: ONE SIZE",
+      "detailImages": [
+        {
+          "id": 1,
+          "image": "/image/products/2_0_Canvas_Beach_bag_Ivory.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/image/products/2_1_Canvas_Beach_bag_Ivory.webp"
+        },
+        {
+          "id": 3,
+          "image": "/image/products/2_2_Canvas_Beach_bag_Ivory.webp"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Poplin loungewear - Relaxed long-sleeved shirt - Orchid Stripes",
+      "image": "/image/products/3_0_poplin_long_shirt_Orchid_Stripes.jpg",
+      "textureExplain": "Crisp, organic cotton with a fresh feel.",
+      "productName": "Relaxed long-sleeved shirt",
+      "price": "₩ 440,000",
+      "colorName": "Orchid Stripes - Fine blue stripes",
+      "color": "rgb(109, 143, 204)",
+      "size": "Size: XXS ~ XXL",
+      "detailImages": [
+        {
+          "id": 1,
+          "image": "/image/products/3_0_poplin_long_shirt_Orchid_Stripes.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/image/products/3_1_poplin_long_shirt_Orchid_Stripes.webp"
+        },
+        {
+          "id": 3,
+          "image": "/image/products/3_2_poplin_long_shirt_Orchid_Stripes.webp"
+        },
+        {
+          "id": 4,
+          "image": "/image/products/3_3_poplin_long_shirt_Orchid_Stripes.webp"
+        },
+        {
+          "id": 5,
+          "image": "/image/products/3_4_poplin_long_shirt_Orchid_Stripes.webp"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Sarong - Villa Stripes",
+      "image": "/image/products/4_0_Cotton_Sarong_Villa_Stripes.jpg",
+      "textureExplain": "Soft, organic cotton in a versatile design.",
+      "productName": "Sarong",
+      "price": "₩ 160,000",
+      "colorName": "Villa Stripes - White with fine blue and black stripes",
+      "color": "url(/image/products/4_Villa_Stripes.png) no-repeat center / cover",
+      "size": "Size: 100X180",
+      "detailImages": [
+        {
+          "id": 1,
+          "image": "/image/products/4_0_Cotton_Sarong_Villa_Stripes.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/image/products/4_1_Cotton_Sarong_Villa_Stripes.webp"
+        },
+        {
+          "id": 3,
+          "image": "/image/products/4_2_Cotton_Sarong_Villa_Stripes.webp"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Beach Towel - Cala Stripes",
+      "image": "/image/products/5_0_Terry_Beach_towel_Cala_Stripes.jpg",
+      "textureExplain": "Organic cotton in a compact yet lightweight weave.",
+      "productName": "Beach Towel",
+      "price": "₩ 160,000",
+      "colorName": "Cala Stripes - Navy blue and white stripes",
+      "color": "url(/image/products/5_Cala_Stripes.png) no-repeat center / cover",
+      "size": "Size: 100X180",
+      "detailImages": [
+        {
+          "id": 1,
+          "image": "/image/products/5_0_Terry_Beach_towel_Cala_Stripes.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/image/products/5_1_Terry_Beach_towel_Cala_Stripes.webp"
+        },
+        {
+          "id": 3,
+          "image": "/image/products/5_2_Terry_Beach_towel_Cala_Stripes.webp"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Poplin pajamas - shorts - Orchid Stripes",
+      "image": "/image/products/6_0_Poplin_Shorts_Orchid_Stripes.jpg",
+      "textureExplain": "Crisp, organic cotton with a fresh feel",
+      "productName": "Poplin shorts",
+      "price": "₩ 210,000",
+      "colorName": "Orchid Stripes - Fine blue stripes",
+      "color": "url(/image/products/6_Orchid_Stripes.png) no-repeat center / cover",
+      "size": "Size: XXS ~ XXL",
+      "detailImages": [
+        {
+          "id": 1,
+          "image": "/image/products/6_0_Poplin_Shorts_Orchid_Stripes.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/image/products/6_1_Poplin_Shorts_Orchid_Stripes.webp"
+        },
+        {
+          "id": 3,
+          "image": "/image/products/6_2_Poplin_Shorts_Orchid_Stripes.webp"
+        },
+        {
+          "id": 2,
+          "image": "/image/products/6_3_Poplin_Shorts_Orchid_Stripes.webp"
+        },
+        {
+          "id": 2,
+          "image": "/image/products/6_4_Poplin_Shorts_Orchid_Stripes.webp"
+        }
+      ]
+    }
+  ],
+  "moodOptions": [
+    {
+      "id": 1,
+      "text": "Ivory",
+      "bgValue": "#F2EBDE"
+    },
+    {
+      "id": 2,
+      "text": "Rich brown stripes",
+      "bgValue": "url(/image/step_options/Richbrownstripes.jpg) no-repeat center / cover"
+    },
+    {
+      "id": 3,
+      "text": "Warm gray",
+      "bgValue": "#A49A87"
+    },
+    {
+      "id": 4,
+      "text": "Purple hue",
+      "bgValue": "#967E96"
+    },
+    {
+      "id": 5,
+      "text": "Vibrant magenta",
+      "bgValue": "#B65374"
+    },
+    {
+      "id": 6,
+      "text": "Faded deep green",
+      "bgValue": "#59999B"
+    },
+    {
+      "id": 7,
+      "text": "Cotton blue",
+      "bgValue": "#2063AC"
+    },
+    {
+      "id": 8,
+      "text": "Dark blue stripes",
+      "bgValue": "url(/image/step_options/Darkbluestripes.jpg) no-repeat center / cover"
+    }
+  ],
+  "fabricOptions": [
+    {
+      "id": 1,
+      "text": "Organic Cotton",
+      "bgValue": "url(/image/step_options/OrganicCotton.jpg) no-repeat center / cover"
+    },
+    {
+      "id": 2,
+      "text": "Cashmere",
+      "bgValue": "url(/image/step_options/Cashmere.jpg) no-repeat center / cover"
+    },
+    {
+      "id": 3,
+      "text": "Linen",
+      "bgValue": "url(/image/step_options/Linen.jpg) no-repeat center / cover"
+    },
+    {
+      "id": 4,
+      "text": "Sateen",
+      "bgValue": "url(/image/step_options/Sateen.jpg) no-repeat center / cover"
+    },
+    {
+      "id": 5,
+      "text": "Mohair",
+      "bgValue": "url(/image/step_options/Mohair.jpg) no-repeat center / cover"
+    },
+    {
+      "id": 6,
+      "text": "Wool",
+      "bgValue": "url(/image/step_options/Wool.jpg) no-repeat center / cover"
+    }
+  ]
+}

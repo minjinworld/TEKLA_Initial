@@ -1,0 +1,56 @@
+.stepsWrap {
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+}
+
+.stepsWrap.firstStep {
+  height: 100vh;
+}
+
+.prevIcon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 28px;
+
+  cursor: pointer;
+}
+
+.firstStep {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.motionText {
+  line-height: 30px;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.stepsWrap .inactive {
+  background-color: #eaeaea;
+  color: #aaa;
+  cursor: not-allowed;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.stepsWrap .active {
+  background-color: #454545;
+  color: #fff;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.stepsWrap button {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.buttonWrap {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 32px);
+  max-width: 480px;
+}

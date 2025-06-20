@@ -1,0 +1,9 @@
+.related_slide {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 8px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}

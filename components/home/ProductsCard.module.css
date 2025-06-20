@@ -1,0 +1,25 @@
+/* .products_card_wrap {
+  display: flex;
+  gap: 16px;
+} */
+
+.products_card_box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.product_image {
+  width: 100%;
+}
+
+.product_name {
+  font-size: 0.875rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  overflow: hidden;
+}
