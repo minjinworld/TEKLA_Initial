@@ -19,11 +19,14 @@ export default function MotionText({
 }: Props) {
   const MotionTag = motion[as as keyof typeof motion] as React.ElementType;
 
-  return React.createElement(MotionTag, {
-    className,
-    initial: { opacity: 0, y: 30 },
-    animate: { opacity: 1, y: 0 },
-    transition: { delay, duration, ease: "easeOut" },
-    children,
-  });
+  return React.createElement(
+    MotionTag,
+    {
+      className,
+      initial: { opacity: 0, y: 30 },
+      animate: { opacity: 1, y: 0 },
+      transition: { delay, duration, ease: "easeOut" },
+    },
+    children
+  );
 }

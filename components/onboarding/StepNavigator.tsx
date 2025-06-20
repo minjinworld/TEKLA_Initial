@@ -15,7 +15,6 @@ export default function StepsNavigator({ onComplete }: Props) {
 
   const goToNext = () => setStep((prev) => prev + 1);
   const goToPrev = () => setStep((prev) => prev - 1);
-  const goToHome = () => router.push("/");
   return (
     <>
       {step === 1 && <Step1 onNext={goToNext} />}

@@ -1,5 +1,5 @@
-// components/ProductImageSwiper.tsx
-import React, { useEffect, useState } from "react";
+import React from "react";
+import Image from "next/image";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
@@ -28,7 +28,12 @@ export default function ProductImageSwiper({ detailImages }: Props) {
       >
         {detailImages.map((img) => (
           <SwiperSlide key={img.id} className={styles.slide}>
-            <img src={img.image} alt="Product image" />
+            <Image
+              fill
+              style={{ objectFit: "cover" }}
+              src={img.image}
+              alt="Product image"
+            />
           </SwiperSlide>
         ))}
       </Swiper>

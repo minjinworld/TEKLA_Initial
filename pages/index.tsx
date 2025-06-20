@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import Home from "@/components/home/Home"; // 네가 작성한 홈 UI 컴포넌트
-
+import Home from "@/components/home/Home";
 export default function IndexPage() {
   const router = useRouter();
   const [isReady, setIsReady] = useState(false);
