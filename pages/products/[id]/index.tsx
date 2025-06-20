@@ -46,6 +46,8 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   // );
   const baseURL = process.env.NEXT_PUBLIC_API_URL;
 
+  console.log("baseURL in getServerSideProps:", baseURL);
+
   const res = await fetch(`${baseURL}/products/${id}`);
 
   if (!res.ok) {
