@@ -22,8 +22,8 @@
 
 ## 데모
 
-https://tekla-initial.vercel.app
-※ 최초 방문 시 온보딩 화면이 나타나며, 이후에는 바로 홈으로 진입합니다.
+[https://tekla-initial.vercel.app](https://tekla.vercel.app/)
+※ 최초 방문 시 온보딩 화면과 스텝네비게이션(2가지 선택시 다음화면 진입)이 나타나며, 이후에는 바로 홈으로 진입합니다.
 
 ## 폴더 구조
 
