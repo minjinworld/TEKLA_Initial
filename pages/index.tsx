@@ -30,7 +30,7 @@ export default function IndexPage({ products }: Props) {
     const hasVisited = sessionStorage.getItem("visitedOnce");
 
     if (!hasVisited) {
-      sessionStorage.setItem("visitedOnce", "true");
+      // sessionStorage.setItem("visitedOnce", "true");
       router.replace("/onboarding/splash");
     } else {
       setIsReady(true);

@@ -63,7 +63,12 @@ export default function Step3({ onNext, onPrev }: Props) {
         <MotionText as="div" delay={1.4}>
           <TeklaButton
             className={selected.length === 2 ? styles.active : styles.inactive}
-            onClick={onNext}
+            onClick={() => {
+              if (selected.length === 2) {
+                sessionStorage.setItem("visitedOnce", "true");
+                onNext();
+              }
+            }}
             disabled={selected.length !== 2}
           >
             다음
