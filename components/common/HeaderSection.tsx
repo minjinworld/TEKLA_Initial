@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import styles from "./HeaderSection.module.css";
 import Logo from "./Logo";
+
 import Link from "next/link";
 
 export default function HeaderSection() {

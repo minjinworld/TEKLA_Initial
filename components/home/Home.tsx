@@ -1,11 +1,11 @@
 import React from "react";
 import MobileLayout from "../layouts/MobileLayout";
-import HeaderSection from "./HeaderSection";
+import HeaderSection from "@/components/common/HeaderSection";
 import BannerSection from "./BannerSection";
 import TextBlock from "./TextBlock";
 import ProductsCardList from "./ProductsCardList";
 import FeaturedSection from "./FeaturedSection";
-import FooterSection from "./FooterSection";
+import FooterSection from "../common/FooterSection";
 
 type Product = {
   id: number;

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./LogoIntro.module.css";
-import Logo from "../home/Logo";
+import Logo from "@/components/common/Logo";
+
 import MotionText from "../common/MotionText";
 
 export default function LogoIntro() {
